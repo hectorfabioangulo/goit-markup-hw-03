@@ -122,6 +122,7 @@ text-align: justify;
     font-weight: 700;
     line-height:1.17em;
     letter-spacing: 0.03em;
+    text-align: center;
 }
 .diseño-block{
     width: 373.16px;
@@ -280,10 +281,30 @@ letter-spacing: 0.03em;
     gap: 40px;
 
 }
+/*------------cuarta seccion diseño------------*/
 
+.diseño__container{
+    display: flex;
+   justify-content: center;
+ gap: 20px;
+ padding: 94px;
+}
+.about__img{
+    display: flex;
+gap: 30px;
+justify-content: center;
+}
 
+/*---------quinta--------*/
 
-
-
-
-
+.equipo__container{
+    display: flex;
+    justify-content: center;
+    padding:94px;
+}
+.equipo__img{
+    display:flex ;
+    gap:20px;
+    justify-content: center;
+    
+}
