@@ -191,11 +191,14 @@ height: 26;
 .team-diseño{
     color: #212121;
     font-family:'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 700;
     line-height: 2em;
-    letter-spacing: 0.06em;  
+    letter-spacing: 0.02em;  
+}
+.team-diseño:hover{
+    
 }
 .team-profec{
 color: #757575;
@@ -307,4 +310,20 @@ justify-content: center;
     gap:20px;
     justify-content: center;
     
+}
+/*---------porfolio----------*/
+
+.container__button-chang{
+    display: flex;
+    justify-content:center;
+    gap:15px;
+}
+.container__team-imag{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+   
+} 
+.team-diseño:hover{
+    border:1px solid #ffffff;
 }

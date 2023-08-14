@@ -14,43 +14,58 @@
 <body>
 
     <header class="header">
-        <nav class="header-navigation container">
-            <a href="./portafolio.html" class="header-home link current">
-                <span class="logo-blue"> WebStudio</span>
-            </a>
-            <ul class="header-menu-list">
-                <a href="./index.html" class="link" class="header-link link current"> Estudio</a>
+
+        <nav class="container navigation__container">
+            <ul class="hero__navegation list  p-0t">
+
+                <li>
+                    <a href="./portafolio.html" class="header-home link current">
+                        <span class="logo-blue"> WebStudio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html" class="link" class="  link"> Estudio</a>
                 </li>
 
-                <li class="header-menu-item">
-                    <a href="./portafolio.html" class="link">portafolio</a>
+                <li>
+                    <a href="./portafolio.html" class="header-menu current link">portafolio</a>
                 </li>
-                <li class="header-menu-item">
+                <li>
                     <a href="#" class="link">Contacto</a>
+                </li>
+            </ul>
+            <ul class="hero__contact list p-0">
+                <li class=""><a class="header-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class=""> <a class="header-tel" href="tel:+525555296000">+52 55 5529 6000</a>
                 </li>
             </ul>
         </nav>
 
-        <ul class="header-contacts list">
-            <li class=""><a class="header-email" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li class=""> <a class="header-tel" href="tel:+525555296000">+52 55 5529 6000</a>
-            </li>
+
+
+        <ul class="headr__container button">
+            <div class="container__button-chang">
+                <li>
+                    <button type="button" class="button-chang"> todo</button>
+                </li>
+                <li><button type="button" class="button-chang"> Sitio-web </button></li>
+                <li><button type="button" class="button-chang"> Aplicaciones </button></li>
+                <li><button type="button" class="button-chang"> Diseño</button></li>
+                <li><button type="button" class="button-chang"> Marketing </button>
+                </li>
+            </div>
+
         </ul>
 
-        <ul class="headr-button">
 
-            <li><button type="button" class="button-chang"> todo</button></li>
-            <li><button type="button" class="button-chang"> Sitio-web </button></li>
-            <li><button type="button" class="button-chang"> Aplicaciones </button></li>
-            <li><button type="button" class="button-chang"> Diseño</button></li>
-            <li><button type="button" class="button-chang"> Marketing </button></li>
-        </ul>
+
+
         <main>
-            <section class="team container">
-                <div class="container">
-                    <ul class="team-lista">
+            <section class="team__container section">
 
+                <ul class="team__img lista">
+                    <div class="container__team-imag">
                         <li class="team-imag">
                             <img src="./images/Tecnoduck_4.jpg" alt="Sitio-web" width="370" height="294" />
                             <h3 class=" team-diseño"> Tecnoduck </h3>
@@ -60,7 +75,8 @@
 
                         <li class=" team-imag  "> <img src="./images/Póster_de_Nueva Orleans_vs_Estrella Dorada.jpg"
                                 alt="Diseño" width="370" height="294" />
-                            <h3 class="team-diseño">Póster de Nueva Orleans vs Estrella Dorada </h3>
+                            <h3 class="team-diseño">Póster de Nueva Orleans vs Estrella
+                                Dorada </h3>
                             <p class="team-profec">Diseño</p>
                         </li>
                         <li class="team-imag"><img src="./images/Restaurante_Seafood.jpg" alt="Aplicaciones" width="370"
@@ -100,7 +116,7 @@
                             <h3 class="team-diseño">Negocio en Crecimiento </h3>
                             <p class="team-profec">Aplicaciones </p>
                         </li>
-                    </ul>
+                </ul>
 
                 </div>
 
