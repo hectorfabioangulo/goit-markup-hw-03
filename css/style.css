@@ -317,13 +317,14 @@ justify-content: center;
 .equipo__img{
     display:flex ;
     gap:20px;
-    justify-content: center;
-    box-shadow: #212121;
-    
+    justify-content: center;  
 }
 .Equipo-list-item{
     background-color: white;
     border-radius: 4px;
+    box-shadow: 0px 2px 1px 0px rgba(0 0 0 / 0.2),
+     0px 1px 1px 0px rgba(0 0 0 / 0.14), 
+     0px 1px 3px 0px rgba(0 0 0 / 0.12);
 }
 
 .equipo-name{
@@ -343,11 +344,10 @@ margin-top:0px;
 .Sitio-web{
     display: flex;
     margin-inline: 36px;
+    padding:60px 0px;
 }
 .header-direccio{ 
     color: #fff
-
-
 }
 
 /*---------porfolio----------*/
@@ -363,39 +363,16 @@ margin-top:0px;
     display: flex;
     flex-wrap:wrap;
     gap:25px; 
-    
-   
-
-
 } 
-
-
 .team-imags{
-    flex-basis: calc((100% - 60px) / 3); 
    
-   border: 1px ;
-   background: #FFF;
-   box-shadow: 1px 4px 6px 0px rgba(85, 6, 6, 0.16), 
-   0px 4px 4px 0px rgba(227, 94, 94, 0.06),
-    0px 1px 1px 0px rgba(212, 27, 27, 0.12);
-
-    
+    flex-basis: calc((100% - 60px) / 9);
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 4px;    
 }
 .team-imags:hover{
-    border: 4px ;
-    background: #FFF;
-
-    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 
-    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 
-    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
-
+    box-shadow: 4px 6px 0px rgba(0, 0, 0, 0.16),
+0px 4px 4px 0px rgba(0, 0, 0, 0.06), 
+0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-
-
-
-
-    
-
-
-
-
