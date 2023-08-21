@@ -147,6 +147,7 @@ font-style: normal;
 font-weight: 500;
 line-height:1.17em;
 letter-spacing: 0.03em;
+margin:0;
 }
 .equipo-sub-title{
     color: #757575;
@@ -156,6 +157,7 @@ font-style: normal;
 font-weight: 400;
 line-height:1.17em;
 letter-spacing: 0.03em;
+margin-top:0px;
 }
 .hero-triton{
     background:#2F303A ;
@@ -171,7 +173,7 @@ letter-spacing: 0.03em;
 
 .headr-button{
     color: #212121;
-    font-family: 'Roboto', sans-serif;
+font-family: 'Roboto', sans-serif;
 font-size: 23px;
 font-style: normal;
 font-weight: 500;
@@ -196,8 +198,11 @@ height: 26;
     font-weight: 700;
     line-height: 2em;
     letter-spacing: 0.02em;  
+    
 }
-.team-diseño:hover{
+
+team-diseño:hover{
+color: #757575; 
     
 }
 .team-profec{
@@ -208,6 +213,7 @@ font-style: normal;
 font-weight: 400;
 line-height:1.8em;
 letter-spacing: 0.4;
+
 }
 
 
@@ -242,7 +248,7 @@ margin: 0 auto;
 .pv-main{
     padding: 5px 0;
 }
-p-0{
+.p-0{
     padding: 0px;
 }
 .list{
@@ -269,7 +275,8 @@ letter-spacing: 0.03em;
 }
 .section{
     padding-bottom: 94px;
-    padding-top: 94px;
+    padding-top:94px;
+
 }
 .title_container{
     display: flex;
@@ -290,40 +297,105 @@ letter-spacing: 0.03em;
     display: flex;
    justify-content: center;
  gap: 20px;
- padding: 94px;
+ padding:0px;
+
 }
 .about__img{
     display: flex;
-gap: 30px;
+gap: 23px;
 justify-content: center;
 }
 
 /*---------quinta--------*/
 
 .equipo__container{
+    background: #F5F4FA;
     display: flex;
     justify-content: center;
-    padding:94px;
 }
+
 .equipo__img{
     display:flex ;
     gap:20px;
     justify-content: center;
+    box-shadow: #212121;
     
 }
+.Equipo-list-item{
+    background-color: white;
+    border-radius: 4px;
+}
+
+.equipo-name{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    padding:30px;
+}
+.equipo-sub-title{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column; 
+margin-top:0px;
+}
+.Sitio-web{
+    display: flex;
+    margin-inline: 36px;
+}
+.header-direccio{ 
+    color: #fff
+
+
+}
+
 /*---------porfolio----------*/
 
-.container__button-chang{
+.button{
     display: flex;
     justify-content:center;
     gap:15px;
+    padding:94px;
 }
-.container__team-imag{
+
+.team-imag__container{
     display: flex;
-    flex-wrap: wrap;
-    gap: 16px;
+    flex-wrap:wrap;
+    gap:25px; 
+    
    
+
+
 } 
-.team-diseño:hover{
-    border:1px solid #ffffff;
+
+
+.team-imags{
+    flex-basis: calc((100% - 60px) / 3); 
+   
+   border: 1px ;
+   background: #FFF;
+   box-shadow: 1px 4px 6px 0px rgba(85, 6, 6, 0.16), 
+   0px 4px 4px 0px rgba(227, 94, 94, 0.06),
+    0px 1px 1px 0px rgba(212, 27, 27, 0.12);
+
+    
 }
+.team-imags:hover{
+    border: 4px ;
+    background: #FFF;
+
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 
+    0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+
+}
+
+
+
+
+    
+
+
+
+
